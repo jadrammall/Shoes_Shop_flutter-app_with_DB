@@ -1,18 +1,20 @@
+/*
+This application teaches students how to make API calls
+to retrieve JSON data and manipulate it.
+ */
 import 'package:flutter/material.dart';
-import 'package:mobile_proj_2/services/auth/login_or_register.dart';
+import 'intro_page.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: LoginOrRegister(),
-    );
+        debugShowCheckedModeBanner: false,
+        title: 'csci410 week 11',
+        home: IntroPage());
   }
 }
