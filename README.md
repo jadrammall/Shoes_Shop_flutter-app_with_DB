@@ -1,4 +1,4 @@
-# mobile_proj_2
+# Shoes_Shop_flutter-app_with_DB
 
 A new Flutter project.
 
